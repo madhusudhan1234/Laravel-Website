@@ -1,0 +1,41 @@
+html,body{
+    max-height:100%;
+}
+div.margin-bottom-30{
+    margin: 0 0 40px 0;
+}
+.margin-bottom-15{
+    margin-bottom: 15px;
+}
+p.blog-timestamps {
+    font-family: "Georgia", Times, serif;
+    color:#c0a16b;
+    font-size:12px;
+}
+h6.dim-black{
+    color:#676662;
+    text-align: justify;
+    text-indent: 1px;
+}
+.padding-right-bottom{
+    padding:0 10px 10px 0;
+}
+footer{
+
+    background: #f5f5f5;
+}
+div.border-all{
+    border:1px solid #666666;
+}
+.plane-default{
+    background: #B0BEC5;
+    border-color:#005299 ;
+}
+
+.news-default{
+    background: #e8e8ee;
+    box-shadow: #7e7e7e 1px 1px 1px;
+}
+
+
+
