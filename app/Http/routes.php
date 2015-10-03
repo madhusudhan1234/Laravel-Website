@@ -14,8 +14,8 @@ Route::controllers([
     'auth' => 'Auth\AuthController',
     'password' => 'Auth\PasswordController',
 ]);
-Route::resource('sub_navigation','SubNavigationController');
-Route::group(['middleware'=>['auth']],function(){
+  
+    Route::group(['middleware'=>['auth']],function(){
 
     Route::get('nav/sort','NavigationController@list_sort');
 
@@ -33,6 +33,7 @@ Route::group(['middleware'=>['auth']],function(){
     Route::resource('posts','PostsController');
     Route::resource('post_type','PostTypeController');
     Route::resource('navigation','NavigationController');
+	Route::resource('sub_navigation','SubNavigationController');
     Route::resource('student_message','StudentMessageController');
     Route::resource('news','NewsController');
     Route::resource('photos','PhotosController');

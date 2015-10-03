@@ -10,7 +10,7 @@
   <body>
       @include('pages/navigation')
       @include('pages/head')
-      @yield('content')
+        @yield('content')
       @include('pages/footer')
   </body>
 
@@ -24,15 +24,15 @@
   <script src="{{ asset('js/main.js') }}" ></script>
 
    <script type="text/javascript">
-       sliderInt=1;
-       sliderNext=2;
+       /*sliderInt=1;
+       sliderNext=2;*/
       $(document).ready(function() {
 
-          $('#slider>.page#1').fadeIn(300);
-          startSlider();
+          /*$('#slider>.page#1').fadeIn(300);*/
+          /*startSlider();*/
 
           $('.dropdown-toggle').dropdown();
-          $('#myPopOver').popover();
+          /*$('#myPopOver').popover();*/
 
           $('nav li ul').hide();
           $('nav li').hover(function()
@@ -43,13 +43,13 @@
               $('ul', this).slideUp('fast');
           });
 
-          function display_icon()
+          /*function display_icon()
           {
               $('.left-arrow').show();
-          }
+          }*/
 
       });/*End of Document Ready Function */
-      function startSlider(){
+      /*function startSlider(){
           count=$('#slider>.page').size();
           loop=setInterval(function(){
 
@@ -65,7 +65,7 @@
           },3000);
 
 
-      }
+      }*/
 
 
    </script>
