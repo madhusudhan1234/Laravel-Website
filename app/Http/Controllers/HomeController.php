@@ -4,7 +4,7 @@ use App\Repo\Repositories\News\NewsInterface;
 use App\Repo\Repositories\Slugs\SlugRepositories;
 use App\Repo\Repositories\StudentMessage\StudentMessageInterface;
 use App\Photo;
-use App\Post;
+/*use App\Post;*/
 use Illuminate\Http\Request;
 
 class HomeController extends Controller {

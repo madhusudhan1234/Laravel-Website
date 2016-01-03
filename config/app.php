@@ -151,6 +151,7 @@ return [
 
         'App\Providers\ComposerServiceProvider',
         'App\Providers\RepositoriesServiceProvider',
+        'App\Providers\HelpServiceProvider',
 	],
 
 	/*
@@ -201,6 +202,7 @@ return [
         'Html'      => 'Illuminate\Html\HtmlFacade',
         'Form'      => 'Illuminate\Html\FormFacade',
         'Image'     => 'Folklore\Image\Facades\Image',
+        'Text'      => 'App\Helpers\Text',
 
 	],
 

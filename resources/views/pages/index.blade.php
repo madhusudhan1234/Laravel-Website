@@ -1,7 +1,6 @@
 @extends('page')
 @section('content')
 @include('pages/functions')
-
     <div class="clearfix space"></div>
     <div class="container">
         @foreach($page as $post)
@@ -14,7 +13,8 @@
                         <div class=" panel panel-default" >
                             <div class="panel-body">
                                 <h2>WelCome to Academia International College</h2>
-                                <p>{{ $post->body }}</p>
+                                {{--<p>{{ $post->body }}</p>--}}
+                                <p>{!! Text::shorten($post->body, 100) !!}</p>
                             </div>
                         </div>
                     </div>
